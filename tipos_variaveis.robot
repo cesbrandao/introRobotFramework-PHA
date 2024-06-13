@@ -14,12 +14,15 @@ ${BOOLEAN}          ${TRUE}
 
 *** Test Cases ***
 Cenario 01: Variavel Simples 
+    [Tags]    simples
     Logar Variavel Simples No Console
 
 Cenario 02: Variavel Lista
+    [Tags]    lista
     Logar Variavel Lista No Console
 
 Cenario 03: Variavel Dicionario
+    [Tags]    dicionario
     Logar Variavel Dicionario No Console
 
 *** Keywords ***
