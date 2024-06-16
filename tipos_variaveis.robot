@@ -1,6 +1,9 @@
 *** Settings ***
 Documentation    Demonstração de tipos de variáveis
+#Resource         ../src/setup-teardown.resource
 Library          Collections
+#Suite Setup      Open Browser
+#Suite Teardown    Close Browser
 
 *** Variables ***
 ${STRING}           frase qualquer

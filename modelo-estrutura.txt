@@ -1,0 +1,12 @@
+-src (infos relevantes para a execução do robot)
+--auto (automação)
+---keywords
+---pages (page objects)
+--config (ex. hooks, package...)
+-test (resultados e test cases)
+--features (test cases)
+--logs (resultados)
+
+Para que os logs sejam salvos no diretório correto, executar o teste com:
+
+robot -d test/logs test/features/test.robot
