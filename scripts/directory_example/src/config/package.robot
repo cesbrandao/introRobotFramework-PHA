@@ -1,17 +1,17 @@
 *** Settings ***
 
-Documentation    Gerenciador de dependências
+Documentation    Este é o gerenciador de dependências da automação
 
 Library    SeleniumLibrary
 
-##    keywords    ##
+## Keywords ##
 
 Resource    ../auto/keywords/kws_home.robot
 
-##    pages    ##
+## Pages ##
 
 Resource    ../auto/pages/home_page.robot
 
-##    hooks    ##
+## Hooks ##
 
 Resource    hooks.robot

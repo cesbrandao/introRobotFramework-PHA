@@ -1,12 +1,12 @@
 *** Settings ***
 
-Documentation    Aqui estão as keywords relevantes para a automação da homepage do site
+Documentation    Aqui estão as Keywords relevantes para a automação da homepage do site
 
 Resource    ../../config/package.robot
 
 *** Keywords ***
 
-Acessar a página da Learning Prime
+Acessar a pagina do Learning Prime
     Go To    https://learningprime.com.br/
 
 Clicar no segundo produto
