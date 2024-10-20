@@ -13,6 +13,43 @@ Executar o script de testes via terminal: `robot nome_arquivo.robot`
 * [Get Started](https://robotframework.org/#getting-started)
 * [Docs](https://docs.robotframework.org/)
 
+## Tipos de Variáveis
+
+### 1. Simples `${SIMPLE_VARIABLE}`
+
+Pode receber qualquer elemento (numérico, string, boolean).
+
+#### Declaração
+
+ * `${SIMPLES_STRING}....texto`
+ * `${SIMPLES_NUM}....123`
+ * `${SIMPLES_BOOL}....${TRUE}` ou `True`
+
+#### Chamada
+
+ * `${SIMPLES_STRING}`
+
+### 2. Lista (Array) `@{LIST}`
+
+Lista de elementos do mesmo tipo.
+
+#### Declaração
+ 
+ * `@{LISTA}....cliente1....cliente2`
+
+#### Chamada
+ * `${LISTA}[ÍNDICE]` - `${LISTA}[0]`
+
+### 3. Dicionário `&{DICT}`
+
+Elementos de diferentes tipos estruturado em `key=value`.
+
+#### Declaração
+ * `&{DICIONARIO}....produto=celular....qtd=10....estoque=True`
+
+#### Chamada
+ * `${DICIONARIO.key}` - `${DICIONARIO.produto}`
+
 ## Setup/Teardown
 
 * `Suite Setup` - Uma keyword específica será executada ANTES de começar a execução da suíte de testes.
